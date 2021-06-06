@@ -78,7 +78,5 @@ namespace Catalog.API.Repositories
             return Updateresult.IsAcknowledged
                 && Updateresult.ModifiedCount > 0;
         }
-
-        
     }
 }
